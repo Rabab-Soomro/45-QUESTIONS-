@@ -1,4 +1,7 @@
-//Q 5:Famous quote 2:Repeat exercise 4, but this time store the famous person's name in a variable called Famous-person.Then compose your message and store it in a new variable called message.print your message.
-let famousperson="Albert Einstein";
-let message="once said,'A person who never made a mistaake never tried anything new.'";
-console.log(famousperson,message);
+//Q 6:Stripping names:store a person's name,and include some whitespace chaaracter at the beginnning and end of the name.make sure you use each character combination,"\t" and "\n" atleast once.print the name once so the whitespace aroound name is displayed.
+//then print the name after striping the whitespace
+let whitespace="\n\Rabab Soomro\t\n";
+console.log(whitespace);
+
+let WhithoutWhitespace=whitespace.trim();
+console.log(WhithoutWhitespace);
